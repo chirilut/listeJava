@@ -12,7 +12,6 @@ class calculator4whiletema {
         } while (i<=100);
     }
 
-
                 //ex 2
 
     public void  countnegativ(int number){
@@ -24,7 +23,6 @@ class calculator4whiletema {
     }
 
 
-
                 //ex 3
 
     public void  countbetween(int first, int second){
@@ -34,7 +32,6 @@ class calculator4whiletema {
             i++;
         }while (i<=second);
     }
-
 
                 //ex 4
 
@@ -88,7 +85,6 @@ class calculator4whiletema {
                 System.out.println("incercati cu numere din intervalul:111-8899");
             }
     }
-
 
 
            // ex 8
