@@ -3,7 +3,6 @@ package lab4temaBucleFor;
 public class Main {
     public static void main(String[] args) {
 
-
         calculator4tema exercitiu=new calculator4tema();
 
 //exercitiu 1
