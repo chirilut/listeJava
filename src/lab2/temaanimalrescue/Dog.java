@@ -1,5 +1,7 @@
 package lab2.temaanimalrescue;
 
+import java.sql.SQLOutput;
+
 public class Dog {
     String name;
     double age;
@@ -14,9 +16,12 @@ public class Dog {
         System.out.println("runns around the bike");
     }
     public void eat() {
-
+        System.out.println("like to eat bones");
     }
     public void play() {
+    }
+    public void bark () {
+        System.out.println("hau hau");
     }
 
 }

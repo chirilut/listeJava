@@ -13,6 +13,20 @@ public class AppMain {
         catel1.hungrylevel=3;
         catel1.moodlevel=9;
 
+        catel1.bark();
+
+        Dog dog=new Chihuahua();
+        dog.bark();
+
+
+        Horse cal=new Horse();
+        cal.run();
+        Chihuahua veve =new Squirrel();
+        veve.bark();
+        veve.run();
+
+
+
         Dog pisica = new Dog();
         pisica.name = "Miau";
         pisica.age = 3;
@@ -40,6 +54,15 @@ public class AppMain {
         }else{   dr.givemedicamentation();
             if (catel1.healthlevel<8){
                 dr.checkhelth();
-            }else{owner.washthepet();} }
-}
+            }else{owner.washthepet();
+            }
+        }
+
+
+
+
+
+
+
+    }
 }
